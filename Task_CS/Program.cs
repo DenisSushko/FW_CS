@@ -28,6 +28,30 @@ string[] cutSymbols(string[] str)
     Array.Resize<string>(ref result, j);
     return result;
 }
+void PrintArray(string[] arr)
+{
+    string str;
+
+    if (arr.Length == 0)
+    {
+        str = "[]";
+    }
+    else
+    {
+        str = "[";
+    }
+    Console.WriteLine("Полученный массив: ");
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (i == arr.Length - 1)
+        {
+            str = str + arr[i] + "]";
+        }
+        else
+            str = str + arr[i] + ", ";
+    }
+    Console.WriteLine(str);
+}
 
 
 
