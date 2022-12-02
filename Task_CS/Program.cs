@@ -52,6 +52,12 @@ void PrintArray(string[] arr)
     }
     Console.WriteLine(str);
 }
+string[] str1 = { "Hello", "2", "world", ":-)" };
+string[] str2 = { "1234", "1567", "-2", "computer science" };
+string[] str3 = { "Russia", "Denmark", "Kazan" };
+string[] strCut1 = cutSymbols(str1);
+string[] strCut2 = cutSymbols(str2);
+string[] strCut3 = cutSymbols(str3);
 
 
 
