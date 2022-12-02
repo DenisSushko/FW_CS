@@ -58,6 +58,9 @@ string[] str3 = { "Russia", "Denmark", "Kazan" };
 string[] strCut1 = cutSymbols(str1);
 string[] strCut2 = cutSymbols(str2);
 string[] strCut3 = cutSymbols(str3);
+PrintArray(strCut1);
+PrintArray(strCut2);
+PrintArray(strCut3);
 
 
 
